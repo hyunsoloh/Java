@@ -13,12 +13,12 @@ public class ex18_0115 {
             int j = rm.nextInt(44);
             array[i]=j;
         
-        for(int k = 0; k<array.length ; k++){
+            for(int k = 0; k<array.length ; k++){               // 중복을 탐색하는 알고리즘
          
-                if(k!=i)
-                if(array[k]==array[i]){
-                    System.out.println("중복되었습니다.");
-                    --i;
+                if(k!=i)                                        // 같은 배열 제외
+                if(array[k]==array[i]){                         // 조건문으로 배열에서 중복이 발생할 경우 
+                    System.out.println("중복되었습니다.");     
+                    --i;                                        // i를 -1 하여 해당 배열에 다시 랜덤한 숫자를 넣도록 조정
                 }
             }
         }
