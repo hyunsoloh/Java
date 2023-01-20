@@ -9,11 +9,11 @@ public class ex18_0115 {
         Random rm = new Random();
         int[] array = new int[6];
         int i = 0;
-        for( i = 0; i<array.length ; i++){
+        for( i = 0; i<array.length ; i++){                      // 배열에 랜덤한수를 넣는 반복문.
             int j = rm.nextInt(44);
             array[i]=j;
         
-            for(int k = 0; k<array.length ; k++){               // 중복을 탐색하는 알고리즘
+            for(int k = 0; k<array.length ; k++){               // 중복을 탐색하는 반복문
          
                 if(k!=i)                                        // 같은 배열 제외
                 if(array[k]==array[i]){                         // 조건문으로 배열에서 중복이 발생할 경우 
