@@ -8,24 +8,26 @@ public class ex13_0113 {
         Scanner sc = new Scanner(System.in);
         Random rm = new Random();
         int[] arr = new int[8];
-        int lnum = 0;
-        int snum = 0;
+        int largeNum = 0;
+        int smallNum = 0;
         System.out.print("배열에 있는 모든 값 : ");
-        for(int i = 0 ; i<8 ; i++){
-            int j = rm.nextInt(100);
-            arr[i]=j;
+        for(int i = 0 ; i<arr.length ; i++){
+            int j = rm.nextInt(100);             // for 문 안에서 랜덤한 수를 넣는 작업을 해야 반복될때마다 다른 수가 나옴
+            arr[i]=j;                                   // 베열에 랜덤한 j 값을 넣는다.
             System.out.print(arr[i]+" ");
-            if(arr[lnum]<arr[i]){
-                lnum = i;
+            // 최댓값 찾는작업.
+            if(arr[largeNum]<arr[i]){
+                largeNum = i;
             }
-            if(arr[snum]>arr[i]){
-                snum = i;
+            //최소값 찾는작업.
+            if(arr[smallNum]>arr[i]){
+                smallNum = i;
             }
         }
         sc.close();
         System.out.println();
-        System.out.println("가장 큰 값:" + arr[lnum]);
-        System.out.println("가장 작은 값:" + arr[snum]);
+        System.out.println("가장 큰 값:" + arr[largeNum]);
+        System.out.println("가장 작은 값:" + arr[smallNum]);
 
 
     }
