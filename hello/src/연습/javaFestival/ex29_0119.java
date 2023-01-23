@@ -16,7 +16,7 @@ public class ex29_0119 {
         int cnt = 1;                                    // 반복문에서 사용 할 변수입니다. 
         
         for(int i = 0 ; i<input.length() ; i++){
-            if(input.charAt(i) == 'o'){                 // ex22에서 설명했지만, input.CharAt(index) 는 배열입니다. index는 분자열의 위치이지요.
+            if(input.charAt(i) == 'o'){                 // ex22에서 설명했지만, input.CharAt(index) 는 배열입니다. index는 문자열의 위치이지요.
                 sum+=cnt;
                 cnt++;                                  // 'o' 가 나온다면 cnt 에 1을더해줍니다. 1 + 2 + 3 +.... 이러한 연산이 가능하게 만들어줍니다. 
             }else if(input.charAt(i) == 'x'){

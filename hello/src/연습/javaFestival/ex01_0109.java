@@ -14,7 +14,7 @@ public class ex01_0109 {
         //반올림 조건문
         
         if(input%10<5){
-            System.out.println(input/10+"0");
+            System.out.println(input/10*10);
         }else System.out.println((input/10+1)*10);
         sc.close();
         
