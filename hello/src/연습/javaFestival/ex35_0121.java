@@ -12,8 +12,8 @@ public class ex35_0121 {
         int j = base;
         int result = 1;
     
-        for(int i = 1; i<=n; i++){
-            result*=j;
+        for(int i = 1; i<=n; i++){      // 변수 i 는 제곱을 몇번할것인가에따라 길이가 결정된다.
+            result*=j;                  // 여기서 result는 합산을 구하는 방식과 비슷하다 다만 곱셈을통하여 재곱을 구한다.
            
         }
         return result;
