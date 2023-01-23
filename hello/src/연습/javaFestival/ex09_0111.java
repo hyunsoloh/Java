@@ -13,7 +13,7 @@ public class ex09_0111 {
         System.out.println(input1+"단");
         sc.close();  
         for(int j =1 ; j<=input2; j++){
-            System.out.println(input1+"*"+j+"="+input1*j);
+            System.out.println(input1+"*"+j+"="+input1*j);      
         }  
         
     }

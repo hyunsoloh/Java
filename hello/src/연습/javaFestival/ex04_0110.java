@@ -8,7 +8,7 @@ public class ex04_0110 {
         System.out.print("현제몸무게:");
         int cWhight = sc.nextInt();
         System.out.print("목표몸무게:");
-        int gWhigjt = sc.nextInt();
+        int gWhight = sc.nextInt();
         int week = 0;
         // while(cWhight>=gWhigjt){
         //     week++;
@@ -21,7 +21,7 @@ public class ex04_0110 {
             System.out.println(week+"주차 감량 몸무게:");
             int lWight = sc.nextInt();
             cWhight -= lWight;
-        }while(cWhight>=gWhigjt);                       //do while 이용
+        }while(cWhight>=gWhight);                       //do while 이용
              
         
         sc.close();                       //스캐너 닫기
