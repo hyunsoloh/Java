@@ -26,7 +26,7 @@ public class ex20_1_0116 {
 
         for(int i =0; i<input; i++){                        // 출력
             for(int j =0; j<input; j++){
-                System.out.print(array[i].get(j) + "\t");
+                System.out.print(array[i].get(j) + "\t");   // 일반적인 2차원 배열로 따지면 array[i][j] 를 출력하는 것과 동일합니다.
             }
             System.out.println();
         } 
