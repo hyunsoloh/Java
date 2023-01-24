@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 //들어가기전
 //이 방법은 ex20의 ArrayList 2차원 배열을 이용해 문제는 풀어나가는방식입니다.
-//어디까지나 참고용으로 활용하길 바라며 저도 2차원 배열을 하는법을 구글링을 통해 배웠습니다.
+//어디까지나 참고용으로 활용하길 바라며 저도 2차원 배열을 구글링을 통해 배웠습니다.
 //자세한 설명을 원하시는분은 따로 연락바랍니다.
 public class ex20_1_0116 {
     public static void main(String[]aStrings) {
