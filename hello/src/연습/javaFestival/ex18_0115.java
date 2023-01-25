@@ -23,7 +23,7 @@ public class ex18_0115 {
             }                                                   // 들어가는 정수이기 때문에  out of bounds 오류가 뜨게됨으로 
         }                                                       // i 값을 0으로 초기화 시켜준다.
         for( int k = 0; k<array.length ; k++){
-            System.out.print(array[k] + " ");
+            System.out.println("행운의 숫자 : "+array[k]);
         }
 
     }
